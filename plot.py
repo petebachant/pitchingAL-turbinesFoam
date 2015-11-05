@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
-Visualization for OpenFOAM actuatorLine simulation.
+Plotting for pitching actuator line simulation.
 """
+
 from __future__ import division, print_function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     import seaborn as sns
     sns.set(context="paper", style="white", font_scale=1.5,
             rc={"axes.grid": True, "legend.frameon": True})
-    
+
     plot_alpha()
     plot_cn()
     plot_cc()
